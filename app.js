@@ -3,11 +3,9 @@ const app = express();
 
 app.use(express.static('public'));
 
-// app.get('/public/index.html');
-
-app.get('/public', function (req, res)
+app.get('/', function (req, res)
 {
-    res.render('index.html');
+    res.sendFile('index.html');
 });
 
 app.listen(5000);

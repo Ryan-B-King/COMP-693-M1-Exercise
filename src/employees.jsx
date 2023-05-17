@@ -4,6 +4,8 @@ let john = 'John Doe'
 let amol = 'Amol Shookup'
 let robin = 'Robin Banks'
 let justin = 'Justin Tyme'
+let chris = 'Chris Columbus'
+let amanda = 'Amanda Bynes'
 
 const element = (
         <ul style = {{'color': 'blue', 'fontSize': '24px'}}>
@@ -13,6 +15,8 @@ const element = (
             <li>{amol}</li>
             <li>{robin}</li>
             <li>{justin}</li>
+            <li>{chris}</li>
+            <li>{amanda}</li>
         </ul>
         )
 
